@@ -71,7 +71,7 @@ TVector<ValType>::TVector(int s, int si)
 			pVector[i] = 0;
 	}
 	else
-		throw 1;
+		throw std::logic_error("bad size ");
 } /*-------------------------------------------------------------------------*/
 
 template <class ValType> //конструктор копирования
@@ -97,7 +97,7 @@ ValType& TVector<ValType>::operator[](int pos)
 	if ((pos >= StartIndex) && (pos < StartIndex + Size))
 		return (pVector[pos - StartIndex]);
 	else
-		throw 1;
+		throw std::logic_error("bad position");
 } /*-------------------------------------------------------------------------*/
 
 template <class ValType> // сравнение

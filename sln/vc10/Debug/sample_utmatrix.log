@@ -1,0 +1,4 @@
+﻿  sample_matrix.cpp
+sample_matrix.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/SAFESEH"
+  sample_utmatrix.vcxproj -> D:\mp2-lab2-matrix\sln\vc10\Debug\sample_utmatrix.exe
+  sample_utmatrix.vcxproj -> D:\mp2-lab2-matrix\sln\vc10\Debug\sample_utmatrix.pdb (Full PDB)
